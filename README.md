@@ -1,4 +1,4 @@
-### Disable overriding dark mode for app
+### Disable dark mode override for app
 1.  In **onCreate()** method in the Activity class, after **super.onCreate(savedInstanceState)** paste this code:
 
 `AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)`
