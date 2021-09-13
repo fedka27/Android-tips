@@ -3,7 +3,7 @@
 
 `AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)`
 
-3. Add to the theme app in **styles.xml** paste:
+2. Add to the theme app in **styles.xml** paste:
 
 `<item name="android:forceDarkAllowed" tools:targetApi="29">false</item>`
 
